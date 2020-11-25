@@ -74,7 +74,7 @@
 ```bash
 $ Download  https://github.com/Ultrasecurity/DarkSide
 $ cd DarkSide
-$ python -m pip install -r requirments
+$ python -m pip install -r requirments.txt
 $ Download PHP V-7 in php.net AND Add To Path php.exe
 $ python run.py
 ```
