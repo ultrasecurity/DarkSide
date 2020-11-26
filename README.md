@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Ultrasecurity/Darkside"><img src="https://img1.looper.com/img/gallery/we-finally-know-what-darkseid-looks-like-in-the-snyder-cut/intro-1590602531.jpg" alt="Darkside"></a>
+  <a href="https://github.com/Ultrasecurity/Darkside"><img src="http://dl.sabzlearn.ir/demo/Dark%20Side.jpg" alt="Darkside"></a>
   <br>
   DarkSide
   <br>
