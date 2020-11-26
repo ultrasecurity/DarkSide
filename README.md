@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Ultrasecurity/Darkside"><img src="http://dl.sabzlearn.ir/demo/Dark%20Side.jpg" alt="Darkside"></a>
+  <a href="https://github.com/Ultrasecurity/Darkside"><img src="http://dl.sabzlearn.ir/demo/rsz_dark_side.jpg" alt="Darkside"></a>
 
 </h1>
 
