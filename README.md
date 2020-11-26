@@ -1,9 +1,7 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/Ultrasecurity/Darkside"><img src="http://dl.sabzlearn.ir/demo/Dark%20Side.jpg" alt="Darkside"></a>
-  <br>
-  DarkSide
-  <br>
+
 </h1>
 
 <h4 align="center">A tool with an awesome user interface.</h4>
