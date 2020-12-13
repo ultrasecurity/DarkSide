@@ -15,7 +15,7 @@ def version():
     if "3.8" in py_version:
         pass
     else: 
-        print("Place Install python 3.8")
+        print("Please Install python 3.8")
         sys.exit()
 
 
