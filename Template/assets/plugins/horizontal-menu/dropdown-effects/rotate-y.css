@@ -1,0 +1,93 @@
+.wsmenu>.wsmenu-list>li>ul.sub-menu {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: perspective(400) rotate3d(1, 0, 0, -90deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+.wsmenu>.wsmenu-list>li:hover>ul.sub-menu {
+  opacity: 1;
+  visibility: visible;
+  max-height: 1000px;
+  -webkit-transform: perspective(400) rotate3d(0, 0, 0, 0);
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform: rotateX(-75deg);
+  -o-transform: rotateX(-75deg);
+  -moz-transform: rotateX(-75deg);
+  -webkit-transform: rotateX(-75deg);
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li:hover>ul.sub-menu {
+  opacity: 1;
+  visibility: visible;
+  -o-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
+  -o-transition: -o-transform 0.4s, opacity 0.4s;
+  -ms-transition: -ms-transform 0.4s, opacity 0.4s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.4s;
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu {
+  opacity: 0;
+  visibility: hidden;
+  -o-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
+  -o-transition: -o-transform 0.4s, opacity 0.4s;
+  -ms-transition: -ms-transform 0.4s, opacity 0.4s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.4s;
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform: rotateX(-75deg);
+  -o-transform: rotateX(-75deg);
+  -moz-transform: rotateX(-75deg);
+  -webkit-transform: rotateX(-75deg);
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li:hover>ul.sub-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+}
+
+.wsmenu>.wsmenu-list>li>.wsmegamenu {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: perspective(400) rotate3d(1, 0, 0, -90deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+.wsmenu>.wsmenu-list>li:hover>.wsmegamenu {
+  opacity: 1;
+  visibility: visible;
+  max-height: 1000px;
+  -webkit-transform: perspective(400) rotate3d(0, 0, 0, 0);
+}

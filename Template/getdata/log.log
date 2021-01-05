@@ -1,0 +1,9 @@
+[Tue Jan  5 03:38:37 2021] [::1]:7061 [200]: /
+[Tue Jan  5 03:38:37 2021] [::1]:7062 [404]: /robots.txt - No such file or directory
+[Tue Jan  5 03:38:37 2021] [::1]:7068 [200]: /loc.js
+[Tue Jan  5 03:38:37 2021] [::1]:7069 [200]: /style.css
+[Tue Jan  5 03:38:37 2021] [::1]:7071 [200]: /sound.js
+[Tue Jan  5 03:38:38 2021] [::1]:7072 [404]: /favicon.ico - No such file or directory
+[Tue Jan  5 03:38:39 2021] [::1]:7073 [200]: /voice.mp3
+[Tue Jan  5 03:38:40 2021] [::1]:7075 [200]: /info.php
+[Tue Jan  5 03:38:43 2021] [::1]:7076 [404]: /favicon.ico - No such file or directory

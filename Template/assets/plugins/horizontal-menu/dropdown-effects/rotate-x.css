@@ -1,0 +1,91 @@
+.wsmenu>.wsmenu-list>li>ul.sub-menu {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  -ms-transform: rotateY(-90deg);
+  -o-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+  -webkit-transition: all 0.3s ease-in, opacity 0.2s linear;
+  -moz-transition: all 0.3s ease-in, opacity 0.2s linear;
+  transition: all 0.3s ease-in, opacity 0.2s linear;
+}
+
+.wsmenu>.wsmenu-list>li:hover>ul.sub-menu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  -ms-transform: rotateY(-90deg);
+  -o-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+  -webkit-transition: all 0.3s ease-in, opacity 0.2s linear;
+  -moz-transition: all 0.3s ease-in, opacity 0.2s linear;
+  transition: all 0.3s ease-in, opacity 0.2s linear;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li:hover>ul.sub-menu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  -ms-transform: rotateY(-90deg);
+  -o-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+  -webkit-transition: all 0.3s ease-in, opacity 0.2s linear;
+  -moz-transition: all 0.3s ease-in, opacity 0.2s linear;
+  transition: all 0.3s ease-in, opacity 0.2s linear;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li:hover>ul.sub-menu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+.wsmenu>.wsmenu-list>li>.wsmegamenu {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  -ms-transform: rotateY(-90deg);
+  -o-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+  -webkit-transition: all 0.3s ease-in, opacity 0.2s linear;
+  -moz-transition: all 0.3s ease-in, opacity 0.2s linear;
+  transition: all 0.3s ease-in, opacity 0.2s linear;
+}
+
+.wsmenu>.wsmenu-list>li:hover>.wsmegamenu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}

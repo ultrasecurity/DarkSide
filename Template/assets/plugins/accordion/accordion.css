@@ -1,0 +1,74 @@
+.accordionjs {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.accordionjs .acc_section {
+  border: 1px solid #eee;
+  position: relative;
+  z-index: 1;
+  margin-top: -1px;
+  overflow: hidden;
+}
+.accordionjs .acc_section .acc_head {
+  position: relative;
+  background: #fff;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+}
+.accordionjs .acc_section .acc_head h3 {
+	line-height: 1;
+    margin: 5px;
+    font-size: 14px;
+    padding-left: 25px;
+
+}
+.accordionjs .acc_section .acc_content {
+  padding: 10px;
+}
+.accordionjs .acc_section:first-of-type,
+.accordionjs .acc_section:first-of-type .acc_head {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.accordionjs .acc_section:last-of-type,
+.accordionjs .acc_section:last-of-type .acc_content {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.accordionjs .acc_section.acc_active > .acc_content {
+  display: block;
+}
+.accordionjs .acc_section.acc_active > .acc_head {
+    background: #17B794;
+    border-bottom: 1px solid #eee;
+    color: #fff;
+}
+.accordionjs .acc_section.acc_active .acc_head h3:before{
+	content: "\e995";
+	position: absolute;
+	font-family: 'feather' !important;
+	left: 10px;
+	color:#fff;
+	top: 13px;
+	font-size: 17px;
+	transition: all 0.5s;
+	transform: scale(1);
+	font-weight: 300;
+}
+.accordionjs .acc_section .acc_head h3:before{
+    content: "\e9b0";
+    position: absolute;
+    font-family: 'feather' !important;
+    left: 10px;
+    top: 13px;
+    color: #a7a8c6;
+    font-size: 17px;
+    transition: all 0.5s;
+    transform: scale(1);
+    font-weight: 300;
+}

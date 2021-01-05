@@ -1,0 +1,25 @@
+.page {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    background:#293544;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 0px 0px, rgba(0, 0, 0, 0.3) 0px 5px 25px 0px;
+}
+body{
+	background:url('../images/patterns/p2.png');
+}
+.app-header.header.hor-topheader{
+	max-width:1170px;
+	margin:0 auto;
+}
+.header-secondary .container {
+	padding-left:0;
+	padding-right:0;
+}

@@ -1,0 +1,6 @@
+pyngrok==2.1.7
+colorama
+requests
+bs4
+dnspython
+ipwhois

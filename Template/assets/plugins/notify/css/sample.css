@@ -1,0 +1,59 @@
+html {
+	box-sizing: border-box;
+}
+*, *::after, *::before {
+	box-sizing: inherit;
+}
+body, html, p, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "Helvetica", serif;
+	font-weight: normal;
+}
+code {
+	font-family: "Consolas", "Monaco", monospace;
+	font-weight: normal;
+}
+body, html, p, code {
+	color: #888;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #444;
+}
+pre {
+	overflow: scroll;
+	background: #EEE;
+	padding: 10px;
+}
+.content {
+	width: 980px;
+	margin: 80px auto;
+}
+.formats .format {
+	display: inline-block;
+}
+.zip {
+	background: url("../images/zip.png");
+	display: block;
+	width: 128px;
+	height: 128px;
+}
+.tar {
+	background: url("../images/tar.png");
+	display: block;
+	width: 128px;
+	height: 128px;
+}
+.fork {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+}
+pre .support.tag {
+	color: #008;
+}
+pre .support.attribute {
+	color: #800;
+}
+pre .string.value {
+	color: #080;
+}

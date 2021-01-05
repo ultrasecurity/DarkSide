@@ -1,0 +1,156 @@
+#ui_notifIt{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    -wekbit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    z-index: 2000;
+}
+#ui_notifIt:hover{
+    opacity: 1 !important;
+}
+#ui_notifIt p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+#notifIt_close{
+	position: absolute;
+	color: #FFF;
+	top: 0;
+	padding: 0px 5px;
+	right: 0;
+}
+#notifIt_close:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Color setup */
+/* You are free to change all of this */
+#ui_notifIt.success{
+    background-color: #5ed84f;
+    color: white;
+}
+#ui_notifIt.error{
+    background-color: #fa626b;
+    color: white;
+}
+#ui_notifIt.warning{
+    background-color: #fdb901;
+    color: white;
+}
+#ui_notifIt.info{
+    background-color: #28afd0;
+    color: white;
+}
+#ui_notifIt.default{
+    background-color: #EEE;
+    color: #444;
+}
+
+/* notifit confirm */
+.notifit_confirm_bg,
+.notifit_prompt_bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.notifit_confirm *,
+.notifit_prompt *{
+    font-family: sans-serif;
+}
+.notifit_confirm,
+.notifit_prompt{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 30px 0px 30px;
+    background-color: #EEE;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.notifit_confirm_accept,
+.notifit_confirm_cancel,
+.notifit_prompt_accept,
+.notifit_prompt_cancel{
+    padding: 10px 20px;
+    color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #444;
+    margin: 10px;
+    outline: 0;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+.notifit_prompt_accept:hover,
+.notifit_prompt_cancel:hover{
+    background-color: #666;
+}
+.notifit_confirm_accept{
+    background-color: #9ACD32;
+}
+.notifit_confirm_accept:hover{
+    background-color: #ABDE43;
+}
+
+.notifit_confirm_cancel{
+    background-color: #FF4500;
+}
+.notifit_confirm_cancel:hover{
+    background-color: #FF5611;
+}
+
+.notifit_confirm_message{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.notifit_prompt_message{
+    color: #444;
+    margin-top: 0;
+    text-align: center;
+}
+
+.notifit_prompt_input{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #AAA;
+    color: #444;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+.notifit_prompt {
+    text-align: center;
+}
