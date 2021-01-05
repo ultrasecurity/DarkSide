@@ -15,8 +15,8 @@
          alt="php">
   </a>
 
-  <a href="https://www.microsoft.com/de-de/">
-    <img src="https://img.shields.io/badge/platform-Windows 10 | 8.1-red">
+  <a href="#">
+    <img src="https://img.shields.io/badge/platform-Linux%20|%20Windows%2010%20|%208.1%20|-red">
   </a>
 </p>
 
