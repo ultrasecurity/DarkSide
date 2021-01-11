@@ -25,10 +25,11 @@ def check_php():
     a = subprocess.getoutput("php -v")
     if "external" in a:
         
-        pass
-    else:
         print("Please Install php")
         sys.exit()
+    else:
+        pass
+
 
 def version():
 
