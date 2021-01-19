@@ -48,7 +48,7 @@ with open('config.json') as f:
 
 def phpserv():
     with open("logs/log.log","w") as phplog:
-        subprocess.Popen(('php', '-S', 'localhost:'+port,'-t','template'), stdout=phplog, stderr=phplog) 
+        subprocess.Popen(('php', '-S', 'localhost:'+port,'-t','Template'), stdout=phplog, stderr=phplog) 
         print(Fore.GREEN+ " \n [+] php Server Started On port "+port+Fore.RED+" Link : "+Fore.WHITE+"http://localhost:"+port)
 
 
