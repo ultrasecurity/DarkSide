@@ -8,9 +8,10 @@ fi
 }
 
 checkroot
-apt-get neofetch
+add-apt-repository ppa:dawidd0811/neofetch
+apt-get update
+apt-get install neofetch
 apt-get install python3 
 apt-get install python3-pip -y >> /dev/null
 python3 -m pip install -r requirements.txt
 echo "Installed!"
-
